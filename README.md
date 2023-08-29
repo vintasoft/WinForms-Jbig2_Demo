@@ -8,7 +8,7 @@ This C# project uses <a href="https://www.vintasoft.com/vsimaging-dotnet-index.h
 
 
 ## Screenshot
-<img src="vintasoft-jbig2-demo.png" alt="VintaSoft JBIG2 Demo">
+<img src="vintasoft-jbig2-demo.png" title="VintaSoft JBIG2 Demo">
 
 
 ## Usage
