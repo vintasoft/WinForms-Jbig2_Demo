@@ -121,7 +121,7 @@ namespace Jbig2Demo
         #region 'File' menu
 
         /// <summary>
-        /// Handles the Click event of NewFileButton object.
+        /// Handles the Click event of newFileButton object.
         /// </summary>
         private void newFileButton_Click(object sender, EventArgs e)
         {
@@ -142,7 +142,7 @@ namespace Jbig2Demo
         }
 
         /// <summary>
-        /// Handles the Click event of OpenFileButton object.
+        /// Handles the Click event of openFileButton object.
         /// </summary>
         private void openFileButton_Click(object sender, EventArgs e)
         {
@@ -183,7 +183,7 @@ namespace Jbig2Demo
         }
 
         /// <summary>
-        /// Handles the Click event of SaveToolStripMenuItem object.
+        /// Handles the Click event of saveToolStripMenuItem object.
         /// </summary>
         private void saveToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -199,7 +199,7 @@ namespace Jbig2Demo
         }
 
         /// <summary>
-        /// Handles the Click event of SaveAsToolStripMenuItem object.
+        /// Handles the Click event of saveAsToolStripMenuItem object.
         /// </summary>
         private void saveAsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -228,7 +228,7 @@ namespace Jbig2Demo
         }
 
         /// <summary>
-        /// Handles the Click event of CloseToolStripMenuItem object.
+        /// Handles the Click event of closeToolStripMenuItem object.
         /// </summary>
         private void closeToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -239,7 +239,7 @@ namespace Jbig2Demo
         }
 
         /// <summary>
-        /// Handles the Click event of ExitToolStripMenuItem object.
+        /// Handles the Click event of exitToolStripMenuItem object.
         /// </summary>
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -252,7 +252,7 @@ namespace Jbig2Demo
         #region 'View' menu
 
         /// <summary>
-        /// Handles the Click event of CenterImageToolStripMenuItem object.
+        /// Handles the Click event of centerImageToolStripMenuItem object.
         /// </summary>
         private void centerImageToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -272,7 +272,7 @@ namespace Jbig2Demo
         }
 
         /// <summary>
-        /// Handles the Click event of ImageViewerSettingsToolStripMenuItem object.
+        /// Handles the Click event of imageViewerSettingsToolStripMenuItem object.
         /// </summary>
         private void imageViewerSettingsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -287,7 +287,7 @@ namespace Jbig2Demo
         #region 'Page' menu
 
         /// <summary>
-        /// Handles the Click event of AddPagesButton object.
+        /// Handles the Click event of addPagesButton object.
         /// </summary>
         private void addPagesButton_Click(object sender, EventArgs e)
         {
@@ -296,7 +296,7 @@ namespace Jbig2Demo
         }
 
         /// <summary>
-        /// Handles the Click event of InsertPagesBeforeToolStripMenuItem object.
+        /// Handles the Click event of insertPagesBeforeToolStripMenuItem object.
         /// </summary>
         private void insertPagesBeforeToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -307,7 +307,7 @@ namespace Jbig2Demo
         }
 
         /// <summary>
-        /// Handles the Click event of InsertPagesAfterToolStripMenuItem object.
+        /// Handles the Click event of insertPagesAfterToolStripMenuItem object.
         /// </summary>
         private void insertPagesAfterToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -322,7 +322,7 @@ namespace Jbig2Demo
         }
 
         /// <summary>
-        /// Handles the Click event of RemovePageToolStripMenuItem object.
+        /// Handles the Click event of removePageToolStripMenuItem object.
         /// </summary>
         private void removePageToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -356,7 +356,7 @@ namespace Jbig2Demo
         #region 'Help' menu
 
         /// <summary>
-        /// Handles the Click event of AboutToolStripMenuItem object.
+        /// Handles the Click event of aboutToolStripMenuItem object.
         /// </summary>
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -370,7 +370,7 @@ namespace Jbig2Demo
 
 
         /// <summary>
-        /// Handles the PageIndexChanged event of ImageViewerToolStrip object.
+        /// Handles the PageIndexChanged event of imageViewerToolStrip object.
         /// </summary>
         private void imageViewerToolStrip_PageIndexChanged(object sender, PageIndexChangedEventArgs e)
         {
@@ -378,7 +378,7 @@ namespace Jbig2Demo
         }
 
         /// <summary>
-        /// Handles the FormClosing event of MainForm object.
+        /// Handles the FormClosing event of mainForm object.
         /// </summary>
         private void mainForm_FormClosing(object sender, FormClosingEventArgs e)
         {
