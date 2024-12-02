@@ -1,10 +1,10 @@
 ﻿using System;
+using System.ComponentModel;
 using System.Windows.Forms;
 
 using Vintasoft.Imaging;
 using Vintasoft.Imaging.Codecs.Decoders;
 using Vintasoft.Imaging.Codecs.ImageFiles.Jbig2;
-using Vintasoft.Imaging.UI;
 using Vintasoft.Imaging.Utils;
 
 using DemosCommonCode;
@@ -79,6 +79,7 @@ namespace Jbig2Demo
         /// <summary>
         /// Gets or sets a value indicating whether JBIG2 file is opening.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         internal bool IsJbig2FileOpening
         {
             get
@@ -97,6 +98,7 @@ namespace Jbig2Demo
         /// Gets or sets a value indicating whether JBIG2 file is locked (image loading,
         /// image adding, file saving, file packing, etc).
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         internal bool IsJbig2FileLocked
         {
             get
