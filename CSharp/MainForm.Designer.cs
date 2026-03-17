@@ -1,4 +1,4 @@
-
+﻿
 namespace Jbig2Demo
 {
     partial class MainForm
@@ -61,7 +61,7 @@ namespace Jbig2Demo
             this.imageEncodingProgressBarLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.imageEncodingProgressBar = new System.Windows.Forms.ToolStripProgressBar();
             this.imageInfoLabel = new System.Windows.Forms.ToolStripStatusLabel();
-            this.viewerToolStrip = new DemosCommonCode.Imaging.ImageViewerToolStrip();
+            this.viewerToolStrip = new CommonCode.Imaging.ImageViewerToolStrip();
             this.mainMenu.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -340,7 +340,7 @@ namespace Jbig2Demo
             this.viewerToolStrip.UseImageViewerImages = false;
             this.viewerToolStrip.OpenFile += new System.EventHandler(this.openFileButton_Click);
             this.viewerToolStrip.SaveFile += new System.EventHandler(this.saveToolStripMenuItem_Click);
-            this.viewerToolStrip.PageIndexChanged += new System.EventHandler<DemosCommonCode.Imaging.PageIndexChangedEventArgs>(this.imageViewerToolStrip_PageIndexChanged);
+            this.viewerToolStrip.PageIndexChanged += new System.EventHandler<CommonCode.Imaging.PageIndexChangedEventArgs>(this.imageViewerToolStrip_PageIndexChanged);
             // 
             // MainForm
             // 
@@ -380,7 +380,7 @@ namespace Jbig2Demo
         private Vintasoft.Imaging.UI.ImageViewer imageViewer1;
         private System.Windows.Forms.ToolStripMenuItem viewToolStripMenuItem;
         private System.Windows.Forms.MenuStrip mainMenu;
-        private DemosCommonCode.Imaging.ImageViewerToolStrip viewerToolStrip;
+        private CommonCode.Imaging.ImageViewerToolStrip viewerToolStrip;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel imageLoadingProgressBarLabel;
         private System.Windows.Forms.ToolStripProgressBar imageLoadingProgressBar;

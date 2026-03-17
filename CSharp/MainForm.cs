@@ -7,10 +7,10 @@ using Vintasoft.Imaging.Codecs.Decoders;
 using Vintasoft.Imaging.Codecs.ImageFiles.Jbig2;
 using Vintasoft.Imaging.Utils;
 
-using DemosCommonCode;
-using DemosCommonCode.Imaging;
-using DemosCommonCode.Imaging.Codecs;
-using DemosCommonCode.Imaging.Codecs.Dialogs;
+using CommonCode;
+using CommonCode.Imaging;
+using CommonCode.Imaging.Codecs;
+using CommonCode.Imaging.Codecs.Dialogs;
 
 
 namespace Jbig2Demo
